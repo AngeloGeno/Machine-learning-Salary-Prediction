@@ -7,8 +7,8 @@ st.title("Salary Prediction App")
 
 st.divider()
 st.write("This app predicts the salary of a an employee based on the Year and the Job Rate")
-years =st.number_input(value=1, step=1, min_value=0)
-jobrate = st.number_input(value=3.5, step=0.5, min_value=0.0)
+years =st.number_input("Enter the Year",value=1, step=1, min_value=0)
+jobrate = st.number_input("Entert the Job rate",value=3.5, step=0.5, min_value=0.0)
 
 X=[years,jobrate]
 
@@ -21,9 +21,12 @@ model =joblib.load("linearmodel.pkl")
 
 
 if predict:
-    st.baloons()
+    st.balloons()
 
-    X1=np.array(X)
-    prediction =model.predict(X1)
-    st.write(f"The predicted salary is {prediction}")
-else:"Press the button to get the salary prediction"
+    X1=np.array([[years,jobrate]])
+    prediction =model.predict(X1)[0]
+    st.write(f"The predicted salary is {prediction:,.2f}")
+
+
+else:
+    st.write("Press the button to get the salary prediction")

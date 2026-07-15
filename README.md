@@ -188,7 +188,7 @@ streamlit run app.py
 # 📷 Application Preview
 
 <p align="center">
-  <img src="screenshots/App_Screenshot_1.png" alt="Employee Salary Prediction Streamlit App" width="900"/>
+  <img src="/App_Screenshot_1.png" alt="Employee Salary Prediction Streamlit App" width="900"/>
 </p>
 ---
 

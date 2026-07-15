@@ -210,11 +210,7 @@ Machine-learning-Salary-Prediction
 
 Example:
 
-```
-screenshots/
-    app.png
-```
-
+App_Screenshot_1.png
 ---
 
 # 📚 Skills Demonstrated

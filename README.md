@@ -248,4 +248,4 @@ App_Screenshot_1.png
 
 - 💼 Junior Data Analyst & Software Developer
 - GitHub: https://github.com/AngeloGeno
-- LinkedIn: *(Add your LinkedIn profile)*
+- LinkedIn: 

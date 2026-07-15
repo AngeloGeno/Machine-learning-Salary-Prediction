@@ -185,7 +185,11 @@ to reproduce the exploratory analysis and model training.
 ```bash
 streamlit run app.py
 ```
+# 📷 Application Preview
 
+<p align="center">
+  <img src="screenshots/App_Screenshot_1.png" alt="Employee Salary Prediction Streamlit App" width="900"/>
+</p>
 ---
 
 # 📂 Repository Structure

@@ -1,3 +1,0 @@
-
-website services 
-job hunt
